@@ -1,0 +1,52 @@
+Puntos donde se toca
+a la circunferencia Interna:
+  4
+  2*3*N   , con N entero y mayor que 0
+
+
+Siempre que:
+
+Número primo anterior  = (2*3*N) - 1
+Número primo siguiente = (2*3*N) + 1
+
+Ps - Pa = 2
+
+Se tiene que demostrar que dado un ángulo
+arbitrariamente pequeño, diferente de cero
+
+En la circunferencia interna caerán dentro
+de esa abertura, recorriéndola de radian
+en radian, infinitos puntos de la forma
+
+  2*3*N , con N entero y mayor que 0
+
+y que infitos de ellos serán el punto medio
+entre dos números primos gemelos.
+
+Como estamos seguros que algunos puntos
+no pertenecen a esa circunferencia, imagino
+que debemos demostrar que por la derecha 
+y por la izquierda de cada uno de esos
+puntos nos podemos acercar cada vez más
+con algún caso que si corresponda con la
+mitad de un par de primos gemelos.
+
+Por ejemplo:
+
+Alrededor del punto 8, a medio grado antes
+y después, debemos poder encontrar infinitos
+puntos medios entre primos gemelos a medida
+que recorramos más vueltas en la circunferencia.
+
+puntos: 4096
+Angulo:   36.0018 10 numeros por vuelta
+Angulo:   54.0018
+Angulo:   75.0018
+Angulo:  120.0018
+Angulo:  128.0018 Tres islas desoladas
+Angulo:  150.0018
+Angulo:  156.0018
+Angulo:  280.0018
+Angulo:  300.0018
+Angulo:  306.0018
+
